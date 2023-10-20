@@ -35,8 +35,8 @@
         background-repeat: no repeat;
         background-size: cover;
         background-position: center;
-        width: 100vh;
-        height: 165vh;
+        width: 140vh;
+        height: 180vh;
         position: absolute;
         z-index: -1;
         opacity: 0.73;
@@ -107,6 +107,7 @@
     height: 280px;
     justify-content: center;
     margin-top: 300px;
+    margin-right: 8px;
 }
    
-}
+px
