@@ -1,0 +1,112 @@
+@media (max-width:1400px){
+    .cabecalho .logo{
+        max-height: 80px;
+        margin-bottom: 20px;
+    }
+
+    .botao{
+        font-size: xx-small;
+        max-height: 150px;
+        max-width: 280px;
+    }
+    .botao .foto{
+        max-height: 135px;
+        margin-top: 10px ;
+    }
+    .botao .nome{
+        font-size: x-small;
+    }
+    .botaoDeSelecoes .botao.selecionado{
+        font-size: xx-small;
+    }
+    .imagem{
+        width: 250px;
+        height: 250px;
+        justify-content: center;
+        margin-top: 80px;
+        margin-right: 2px;
+    }
+}
+
+@media (max-width:887px){
+    body::before{
+        content: "";
+        background-image: url(../imagens/HD-wallpaper-eclipse-y-locura-anime-berserk-casca-griffith-guts-manga\ \(1\).jpg);
+        background-repeat: no repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100vh;
+        height: 165vh;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.73;
+    }
+    .cabecalho .logo{
+        max-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .botao{
+        font-size: 8px;
+        max-height: 550px;
+        max-width: 200px;
+        flex-direction: column;
+    }
+    .botao .foto{
+        max-height: 100px;
+        width: 100px;
+        margin-top: 20px ;
+    }
+    .botao .nome{
+        font-size: xx-small;
+    }
+    .botaoDeSelecoes .botao.selecionado .nome{
+        font-size: xx-small;
+    }
+    .botaoDeSelecoes .botao.selecionado{
+        font-size: xx-small;
+
+    }
+    .imagem{
+        width: 250px;
+        height: 300px;
+        justify-content: center;
+        margin-top: 140px;
+    }
+}
+
+@media (max-width:700px){
+.cabecalho .logo{
+    max-height: 80px;
+    margin-bottom: 10px;
+}
+
+.botao{
+    font-size: 8px;
+    max-height: 550px;
+    max-width: 160px;
+    flex-direction: column;
+}
+.botao .foto{
+    max-height: 140px;
+    width: 100px;
+    margin-top: 20px ;
+}
+.botao .nome{
+    font-size: xx-small;
+}
+.botaoDeSelecoes .botao.selecionado .nome{
+    font-size: xx-small;
+}
+.botaoDeSelecoes .botao.selecionado{
+    font-size: xx-small;
+
+}
+.imagem{
+    width: 225px;
+    height: 280px;
+    justify-content: center;
+    margin-top: 300px;
+}
+   
+}

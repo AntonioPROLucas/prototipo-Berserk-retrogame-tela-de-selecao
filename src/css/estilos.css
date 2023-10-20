@@ -1,0 +1,62 @@
+body{
+    font-family: "Press Start 2P", cursive;
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+.menu{
+    display: flex;
+}
+body::before{
+    content: "";
+    background-image: url(../imagens/eclipse.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.73;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    top: 0;
+}
+main .personagem{
+    display: none;
+}
+
+main .personagem.selecionado{
+    display: block;
+}
+.imagem{
+    height: 350px;
+    border-bottom:10px solid #9f0b0b;
+    margin-right: 80px;
+    margin-top: 50px;
+    width: 480px;
+}
+.botao{
+    cursor : pointer;
+    width: 440px;
+    height: 250px;
+    gap: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    justify-content: center;
+
+}
+
+.botaoDeSelecoes .botao.selecionado{
+    width: 435px;
+    height: 250px;
+    background-color: rgb(148, 161, 172);
+
+}
+.botao .foto{
+    max-height: 210px;
+    margin-top: 15px;
+}
